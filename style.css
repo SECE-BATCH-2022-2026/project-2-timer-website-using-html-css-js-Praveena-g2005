@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(to right,rgb(242, 120, 67),rgb(85, 85, 255),rgb(142, 8, 128));
+    align-items: center; 
+    justify-content: center;
+}
+.timer-container{
+    padding: 25px;
+    width: 250px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    background: rgba(225, 225, 225, 0.087);
+    box-shadow: 0px 8px 32px 0 rgb(144, 49, 151);
+    align-items: center;
+    border-radius: 10%;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    margin: 10px;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+}
